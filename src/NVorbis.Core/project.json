@@ -1,0 +1,85 @@
+{
+  "title": "NVorbis.Core",
+  "version": "1.0.0",
+  "authors": [ "Samuel Kamber", "LonghronShen" ],
+  "owners": [ "Samuel Kamber", "LonghronShen" ],
+  "projectUrl": "https://github.com/LonghronShen/Wav.Net",
+  "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "description": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)",
+  "summary": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)",
+
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LonghronShen/Wav.Net"
+    },
+    "requireLicenseAcceptance": false,
+    "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+    "owners": [ "Samuel Kamber", "LonghronShen" ],
+    "summary": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)"
+  },
+
+  "buildOptions": {
+    "allowUnsafe": true
+  },
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "portable45-net45+win8+wpa81": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8+wpa81"
+      ],
+      "dependencies": {
+        "Portable.Text.Encoding": "0.8.3.1"
+      },
+      "frameworkAssemblies": {
+        "mscorlib": "4.0.0.0",
+        "System": "4.0.0.0",
+        "System.Collections": "4.0.0.0",
+        "System.Collections.Concurrent": "4.0.0.0",
+        "System.Diagnostics.Debug": "4.0.0.0",
+        "System.Globalization": "4.0.0.0",
+        "System.IO": "4.0.0.0",
+        "System.Linq": "4.0.0.0",
+        "System.Linq.Expressions": "4.0.0.0",
+        "System.Linq.Queryable": "4.0.0.0",
+        "System.Reflection": "4.0.0.0",
+        "System.Reflection.Extensions": "4.0.0.0",
+        "System.Reflection.Primitives": "4.0.0.0",
+        "System.Runtime": "4.0.0.0",
+        "System.Runtime.Extensions": "4.0.0.0",
+        "System.Runtime.InteropServices": "4.0.0.0",
+        "System.Text.RegularExpressions": "4.0.0.0",
+        "System.Threading": "4.0.0.0",
+        "System.Threading.Tasks": "4.0.0.0"
+      },
+      "buildOptions": {
+        "define": [ "PORTABLE" ]
+      }
+    },
+    "netstandard1.6": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8+wpa81"
+      ],
+      "dependencies": {
+        "Microsoft.NETCore.Portable.Compatibility": "1.0.0",
+        "NETStandard.Library": "1.6.0",
+        "System.Diagnostics.Debug": "4.3.0",
+        "System.IO.FileSystem": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Runtime.Serialization.Formatters": "4.3.0",
+        "System.Threading": "4.3.0",
+        "System.Threading.Thread": "4.3.0"
+      },
+      "buildOptions": {
+        "define": [ "NETCORE" ]
+      }
+    },
+    "net451": {
+    }
+  }
+}
