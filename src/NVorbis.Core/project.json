@@ -1,22 +1,23 @@
 {
   "title": "NVorbis.Core",
   "version": "1.0.0",
-  "authors": [ "Samuel Kamber", "LonghronShen" ],
-  "owners": [ "Samuel Kamber", "LonghronShen" ],
-  "projectUrl": "https://github.com/LonghronShen/Wav.Net",
-  "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
-  "description": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)",
-  "summary": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)",
+  "authors": [ "Andrew Ward", "LonghronShen" ],
+  "owners": [ "Andrew Ward", "LonghronShen" ],
+  "projectUrl": "https://github.com/LonghronShen/NVorbis",
+  "licenseUrl": "http://nvorbis.codeplex.com/license",
+  "description": "A fully managed implementation of a Xiph.org Foundation Ogg Vorbis decoder.",
+  "summary": "A fully managed implementation of a Xiph.org Foundation Ogg Vorbis decoder.",
 
   "packOptions": {
     "repository": {
       "type": "git",
-      "url": "https://github.com/LonghronShen/Wav.Net"
+      "url": "https://github.com/LonghronShen/NVorbis"
     },
+    "tags": [ "ogg", "vorbis", "xiph", "audio", "c#", "sound", ".NET" ],
     "requireLicenseAcceptance": false,
-    "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
-    "owners": [ "Samuel Kamber", "LonghronShen" ],
-    "summary": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)"
+    "licenseUrl": "http://nvorbis.codeplex.com/license",
+    "owners": [ "Andrew Ward", "LonghronShen" ],
+    "summary": "A fully managed implementation of a Xiph.org Foundation Ogg Vorbis decoder."
   },
 
   "buildOptions": {
